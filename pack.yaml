@@ -2,3 +2,6 @@
 ref: syssignal
 name: System Signals
 description: Sample pack with Signals
+version: 0.0.1
+author: Ejaz
+email: ejaz@example.com
