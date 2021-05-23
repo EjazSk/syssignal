@@ -1,0 +1,9 @@
+---
+name: on_myevent
+pack: syssignal
+description: sample rule firing sample action
+enabled: true
+trigger:
+  type: syssignal.myevent
+action:
+  ref: syssignal.name

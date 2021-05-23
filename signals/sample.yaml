@@ -1,0 +1,8 @@
+---
+class_name: "SampleSensor"
+entry_point: "sample.py"
+description: "first sample signal"
+trigger_types:
+  - name: "myevent"
+    description: "example trigger"
+    payload_schema: object
