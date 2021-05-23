@@ -6,7 +6,7 @@ class SampleSensor(PollingSensor):
         super(SampleSensor, self).__init__(sensor_service=sensor_service,
                                            config=config,
                                            poll_interval=poll_interval)
-        self._poll_interval = 30
+        # self._poll_interval = 30
 
     def setup(self):
         pass
