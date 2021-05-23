@@ -16,7 +16,7 @@ class SampleSensor(PollingSensor):
         # count = self.sensor_service.get_value('hello_st2.count') or 0
         # payload = {'greeting': 'Yo, StackStorm!', 'count': int(count) + 1}
         payload = {"success": "ok"}
-        self._sensor_service.dispatch(
+        self.sensor_service.dispatch(
             trigger='syssignal.myevent', payload=payload)
         # self.sensor_service.set_value('hello_st2.count', payload['count'])
 
