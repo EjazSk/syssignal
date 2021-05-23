@@ -1,0 +1,10 @@
+---
+name: name
+runner_type: local-shell-cmd
+description: Creates a Note
+entry_point:
+parameters:
+  cmd:
+    type: string
+    required: true
+    default: "uptime"
