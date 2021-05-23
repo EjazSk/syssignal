@@ -5,4 +5,4 @@ description: "first sample signal"
 trigger_types:
   - name: "myevent"
     description: "example trigger"
-    payload_schema: object
+    # payload_schema: object
